@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "shihe",
+      "type": "org.shihe.cache.CacheProperties",
+      "sourceType": "org.shihe.cache.CacheProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "shihe.checktime",
+      "type": "java.lang.Long",
+      "sourceType": "org.shihe.cache.CacheProperties"
+    },
+    {
+      "name": "shihe.timeout",
+      "type": "java.lang.Long",
+      "sourceType": "org.shihe.cache.CacheProperties"
+    }
+  ],
+  "hints": []
+}
