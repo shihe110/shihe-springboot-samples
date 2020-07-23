@@ -1,4 +1,4 @@
-package cache;
+package org.shihe.cache;
 
 /**
  * 缓存约束接口

@@ -1,4 +1,4 @@
-package cache;
+package org.shihe.cache;
 
 import java.util.Collections;
 import java.util.HashMap;
