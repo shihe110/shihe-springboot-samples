@@ -12,9 +12,13 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix = "shihe")
 public class CacheProperties {
 
-    private Long timeout;
+    private static final long CHECK_TIME = 1000 * 60 * 30;
 
-    private Long checktime;
+    private static final long DEFAULT_TIMEOUT = 1000 * 60 * 30;
+
+    private Long timeout = DEFAULT_TIMEOUT;
+
+    private Long checktime = CHECK_TIME;
 
     public Long getTimeout() {
         return timeout;

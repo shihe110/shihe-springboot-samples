@@ -113,17 +113,13 @@ public class MemoryCache implements ICache{
         }
     }
 
-    public MemoryCache(Long default_timeout, Long check_time) {
-        if (default_timeout!=null && default_timeout!=0L){
+    public MemoryCache(long default_timeout, long check_time) {
+        if (default_timeout!=0){
             this.default_timeout = default_timeout;
         }
-        if (check_time!=null&&check_time!=0L){
+        if (check_time!=0){
             this.check_time = check_time;
         }
-        new ClearThread().start();
-    }
-
-    public MemoryCache() {
         new ClearThread().start();
     }
 

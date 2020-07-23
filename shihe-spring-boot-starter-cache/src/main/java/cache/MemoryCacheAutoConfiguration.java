@@ -23,14 +23,8 @@ public class MemoryCacheAutoConfiguration {
 
     @Bean
     MemoryCache memoryCache(){
-        Long timeout = cacheProperties.getTimeout();
-        Long checktime = cacheProperties.getChecktime();
-        if (timeout==0L||timeout==null){
-            timeout = 0L;
-        }
-        if (checktime==0L||checktime==null){
-            checktime = 0L;
-        }
-        return new MemoryCache(timeout, checktime);
+        long timeout = cacheProperties.getTimeout();
+        long checkTime = cacheProperties.getChecktime();
+        return new MemoryCache(timeout, checkTime);
     }
 }
