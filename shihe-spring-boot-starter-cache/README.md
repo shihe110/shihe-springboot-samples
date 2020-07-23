@@ -64,3 +64,8 @@ shihe.timeout=5000 //表示缓存过期时间毫秒值-5000表示5秒
         return byKey;
     }
 ```
+## step 5
+
+[github地址](https://github.com/shihe110/shihe-springboot-samples/tree/master/shihe-spring-boot-starter-cache)
+
+----
