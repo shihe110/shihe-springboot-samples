@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/shihe-spring-boot-starter-cache/shihe-spring-boot-starter-cache.iml" filepath="$PROJECT_DIR$/shihe-spring-boot-starter-cache/shihe-spring-boot-starter-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shihe-springboot-hasor/shihe-springboot-hasor.iml" filepath="$PROJECT_DIR$/shihe-springboot-hasor/shihe-springboot-hasor.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/shihe-springboot-samples.iml" filepath="$PROJECT_DIR$/.idea/shihe-springboot-samples.iml" />
     </modules>
   </component>
