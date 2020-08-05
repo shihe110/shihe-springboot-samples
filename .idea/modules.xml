@@ -3,8 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/shihe-spring-boot-starter-cache/shihe-spring-boot-starter-cache.iml" filepath="$PROJECT_DIR$/shihe-spring-boot-starter-cache/shihe-spring-boot-starter-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shihe-springboot-cache/shihe-springboot-cache.iml" filepath="$PROJECT_DIR$/shihe-springboot-cache/shihe-springboot-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shihe-springboot-docker/shihe-springboot-docker.iml" filepath="$PROJECT_DIR$/shihe-springboot-docker/shihe-springboot-docker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shihe-springboot-event/shihe-springboot-event.iml" filepath="$PROJECT_DIR$/shihe-springboot-event/shihe-springboot-event.iml" />
       <module fileurl="file://$PROJECT_DIR$/shihe-springboot-hasor/shihe-springboot-hasor.iml" filepath="$PROJECT_DIR$/shihe-springboot-hasor/shihe-springboot-hasor.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/shihe-springboot-samples.iml" filepath="$PROJECT_DIR$/.idea/shihe-springboot-samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shihe-springboot-security/shihe-springboot-security.iml" filepath="$PROJECT_DIR$/shihe-springboot-security/shihe-springboot-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shihe-springboot-start/shihe-springboot-start.iml" filepath="$PROJECT_DIR$/shihe-springboot-start/shihe-springboot-start.iml" />
     </modules>
   </component>
 </project>

@@ -8,6 +8,11 @@
       <list>
         <option value="$PROJECT_DIR$/shihe-spring-boot-starter-cache/pom.xml" />
         <option value="$PROJECT_DIR$/shihe-springboot-hasor/pom.xml" />
+        <option value="$PROJECT_DIR$/shihe-springboot-event/pom.xml" />
+        <option value="$PROJECT_DIR$/shihe-springboot-start/pom.xml" />
+        <option value="$PROJECT_DIR$/shihe-springboot-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/shihe-springboot-security/pom.xml" />
+        <option value="$PROJECT_DIR$/shihe-springboot-docker/pom.xml" />
       </list>
     </option>
   </component>
