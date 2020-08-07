@@ -1,3 +1,7 @@
+## 下载安装mongodb
+
+## 编码coding
+
 ## 配置前缀
 spring.data.mongodb
 
