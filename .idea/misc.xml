@@ -13,6 +13,13 @@
         <option value="$PROJECT_DIR$/shihe-springboot-cache/pom.xml" />
         <option value="$PROJECT_DIR$/shihe-springboot-security/pom.xml" />
         <option value="$PROJECT_DIR$/shihe-springboot-docker/pom.xml" />
+        <option value="$PROJECT_DIR$/shihe-springboot-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/shihe-springboot-func/pom.xml" />
+        <option value="$PROJECT_DIR$/shihe-springboot-ioc/pom.xml" />
+        <option value="$PROJECT_DIR$/shihe-springboot-mongo/pom.xml" />
+        <option value="$PROJECT_DIR$/shihe-springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/shihe-springboot-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/shihe-springboot-security-pconfig/pom.xml" />
       </list>
     </option>
   </component>
