@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="shihe-springboot-start" />
+        <module name="shihe-springboot-security-jconfig" />
         <module name="shihe-springboot-redis" />
         <module name="shihe-springboot-stream" />
         <module name="shihe-springboot-func" />
@@ -20,6 +21,7 @@
         <module name="shihe-spring-boot-starter-cache" />
         <module name="shihe-springboot-mongo" />
         <module name="shihe-springboot-ioc" />
+        <module name="shihe-springboot-security-formlogin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -35,6 +37,8 @@
       <module name="shihe-springboot-mongo" target="1.8" />
       <module name="shihe-springboot-redis" target="1.8" />
       <module name="shihe-springboot-security" target="1.8" />
+      <module name="shihe-springboot-security-formlogin" target="1.8" />
+      <module name="shihe-springboot-security-jconfig" target="1.8" />
       <module name="shihe-springboot-security-pconfig" target="1.8" />
       <module name="shihe-springboot-start" target="1.8" />
       <module name="shihe-springboot-stream" target="8" />
