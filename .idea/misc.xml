@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/shihe-springboot-security-pconfig/pom.xml" />
         <option value="$PROJECT_DIR$/shihe-springboot-security-jconfig/pom.xml" />
         <option value="$PROJECT_DIR$/shihe-springboot-security-formlogin/pom.xml" />
+        <option value="$PROJECT_DIR$/shihe-springboot-security-json/pom.xml" />
       </list>
     </option>
   </component>

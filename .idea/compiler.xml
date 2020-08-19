@@ -20,6 +20,7 @@
         <module name="shihe-springboot-event" />
         <module name="shihe-spring-boot-starter-cache" />
         <module name="shihe-springboot-mongo" />
+        <module name="shihe-springboot-security-json" />
         <module name="shihe-springboot-ioc" />
         <module name="shihe-springboot-security-formlogin" />
       </profile>
@@ -39,6 +40,7 @@
       <module name="shihe-springboot-security" target="1.8" />
       <module name="shihe-springboot-security-formlogin" target="1.8" />
       <module name="shihe-springboot-security-jconfig" target="1.8" />
+      <module name="shihe-springboot-security-json" target="1.8" />
       <module name="shihe-springboot-security-pconfig" target="1.8" />
       <module name="shihe-springboot-start" target="1.8" />
       <module name="shihe-springboot-stream" target="8" />

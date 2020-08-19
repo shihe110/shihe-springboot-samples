@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/shihe-springboot-security/shihe-springboot-security.iml" filepath="$PROJECT_DIR$/shihe-springboot-security/shihe-springboot-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/shihe-springboot-security-formlogin/shihe-springboot-security-formlogin.iml" filepath="$PROJECT_DIR$/shihe-springboot-security-formlogin/shihe-springboot-security-formlogin.iml" />
       <module fileurl="file://$PROJECT_DIR$/shihe-springboot-security-jconfig/shihe-springboot-security-jconfig.iml" filepath="$PROJECT_DIR$/shihe-springboot-security-jconfig/shihe-springboot-security-jconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shihe-springboot-security-json/shihe-springboot-security-json.iml" filepath="$PROJECT_DIR$/shihe-springboot-security-json/shihe-springboot-security-json.iml" />
       <module fileurl="file://$PROJECT_DIR$/shihe-springboot-security-pconfig/shihe-springboot-security-pconfig.iml" filepath="$PROJECT_DIR$/shihe-springboot-security-pconfig/shihe-springboot-security-pconfig.iml" />
       <module fileurl="file://$PROJECT_DIR$/shihe-springboot-start/shihe-springboot-start.iml" filepath="$PROJECT_DIR$/shihe-springboot-start/shihe-springboot-start.iml" />
       <module fileurl="file://$PROJECT_DIR$/shihe-springboot-stream/shihe-springboot-stream.iml" filepath="$PROJECT_DIR$/shihe-springboot-stream/shihe-springboot-stream.iml" />
