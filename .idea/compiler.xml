@@ -21,6 +21,8 @@
         <module name="shihe-spring-boot-starter-cache" />
         <module name="shihe-springboot-mongo" />
         <module name="shihe-springboot-security-json" />
+        <module name="shihe-springboot-security-authorization" />
+        <module name="shihe-springboot-security-jdbc" />
         <module name="shihe-springboot-ioc" />
         <module name="shihe-springboot-security-formlogin" />
       </profile>
@@ -38,8 +40,10 @@
       <module name="shihe-springboot-mongo" target="1.8" />
       <module name="shihe-springboot-redis" target="1.8" />
       <module name="shihe-springboot-security" target="1.8" />
+      <module name="shihe-springboot-security-authorization" target="1.8" />
       <module name="shihe-springboot-security-formlogin" target="1.8" />
       <module name="shihe-springboot-security-jconfig" target="1.8" />
+      <module name="shihe-springboot-security-jdbc" target="1.8" />
       <module name="shihe-springboot-security-json" target="1.8" />
       <module name="shihe-springboot-security-pconfig" target="1.8" />
       <module name="shihe-springboot-start" target="1.8" />
@@ -50,6 +54,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="shihe-springboot-cache-starter" options="-parameters" />
       <module name="shihe-springboot-hasor" options="-parameters" />
+      <module name="shihe-springboot-security-authorization" options="-parameters" />
+      <module name="shihe-springboot-security-jdbc" options="-parameters" />
       <module name="shihe-springboot-start" options="-parameters" />
     </option>
   </component>
