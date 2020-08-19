@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.User;
@@ -29,7 +30,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Bean
     PasswordEncoder passwordEncoder(){
-        return NoOpPasswordEncoder.getInstance();
+        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+        return encoder;
     }
 
     // 注入数据源
@@ -43,14 +45,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         JdbcUserDetailsManager manager = new JdbcUserDetailsManager();
         manager.setDataSource(dataSource);
         if (!manager.userExists("shihe")){
-            manager.createUser(User.withUsername("shihe").password("123456").roles("admin").build());
+            manager.createUser(User.withUsername("shihe").password(passwordEncoder().encode("123456")).roles("admin").build());
         }
         if (!manager.userExists("lisi")){
-            manager.createUser(User.withUsername("lisi").password("123456").roles("user").build());
+            manager.createUser(User.withUsername("lisi").password(passwordEncoder().encode("123456")).roles("user").build());
         }
         return manager;
     }
-
 
     // 配置授权拦截规则等
     @Override
