@@ -1,5 +1,6 @@
-package org.shihe;
+package org.shihe.dao;
 
+import org.shihe.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

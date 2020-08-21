@@ -1,12 +1,12 @@
-package org.shihe;
+package org.shihe.service;
 
+import org.shihe.domain.User;
+import org.shihe.dao.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-
-import javax.sql.DataSource;
 
 /**
  * @ClassName UserService

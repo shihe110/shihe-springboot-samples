@@ -1,4 +1,4 @@
-package org.shihe;
+package org.shihe.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -18,18 +18,8 @@ public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String name;
-
     private String nameZh;
-
-    public Role(String name, String nameZh) {
-        this.name = name;
-        this.nameZh = nameZh;
-    }
-
-    public Role() {
-    }
 
     public Long getId() {
         return id;
