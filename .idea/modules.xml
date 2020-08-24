@@ -11,7 +11,9 @@
       <module fileurl="file://$PROJECT_DIR$/shihe-springboot-hasor/shihe-springboot-hasor.iml" filepath="$PROJECT_DIR$/shihe-springboot-hasor/shihe-springboot-hasor.iml" />
       <module fileurl="file://$PROJECT_DIR$/shihe-springboot-ioc/shihe-springboot-ioc.iml" filepath="$PROJECT_DIR$/shihe-springboot-ioc/shihe-springboot-ioc.iml" />
       <module fileurl="file://$PROJECT_DIR$/shihe-springboot-mongo/shihe-springboot-mongo.iml" filepath="$PROJECT_DIR$/shihe-springboot-mongo/shihe-springboot-mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shihe-springboot-mvc/shihe-springboot-mvc.iml" filepath="$PROJECT_DIR$/shihe-springboot-mvc/shihe-springboot-mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/shihe-springboot-redis/shihe-springboot-redis.iml" filepath="$PROJECT_DIR$/shihe-springboot-redis/shihe-springboot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shihe-springboot-register/shihe-springboot-register.iml" filepath="$PROJECT_DIR$/shihe-springboot-register/shihe-springboot-register.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/shihe-springboot-samples.iml" filepath="$PROJECT_DIR$/.idea/shihe-springboot-samples.iml" />
       <module fileurl="file://$PROJECT_DIR$/shihe-springboot-security/shihe-springboot-security.iml" filepath="$PROJECT_DIR$/shihe-springboot-security/shihe-springboot-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/shihe-springboot-security-authorization/shihe-springboot-security-authorization.iml" filepath="$PROJECT_DIR$/shihe-springboot-security-authorization/shihe-springboot-security-authorization.iml" />

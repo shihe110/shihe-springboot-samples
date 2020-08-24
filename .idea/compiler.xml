@@ -8,23 +8,25 @@
         <outputRelativeToContentRoot value="true" />
         <module name="shihe-springboot-start" />
         <module name="shihe-springboot-security-jconfig" />
-        <module name="shihe-springboot-security-jpa" />
+        <module name="shihe-springboot-security" />
         <module name="shihe-springboot-redis" />
         <module name="shihe-springboot-stream" />
-        <module name="shihe-springboot-func" />
         <module name="shihe-springboot-docker" />
-        <module name="shihe-springboot-hasor" />
-        <module name="shihe-springboot-security" />
-        <module name="shihe-springboot-cache" />
+        <module name="shihe-springboot-security-jpa" />
+        <module name="shihe-springboot-func" />
         <module name="shihe-springboot-security-pconfig" />
-        <module name="shihe-springboot-actuator" />
+        <module name="shihe-springboot-hasor" />
         <module name="shihe-springboot-event" />
+        <module name="shihe-springboot-ioc" />
+        <module name="shihe-springboot-register" />
         <module name="shihe-spring-boot-starter-cache" />
         <module name="shihe-springboot-mongo" />
+        <module name="shihe-springboot-actuator" />
         <module name="shihe-springboot-security-json" />
-        <module name="shihe-springboot-security-authorization" />
+        <module name="shihe-springboot-cache" />
+        <module name="shihe-springboot-mvc" />
         <module name="shihe-springboot-security-jdbc" />
-        <module name="shihe-springboot-ioc" />
+        <module name="shihe-springboot-security-authorization" />
         <module name="shihe-springboot-security-formlogin" />
       </profile>
     </annotationProcessing>
@@ -39,7 +41,9 @@
       <module name="shihe-springboot-hasor" target="1.8" />
       <module name="shihe-springboot-ioc" target="1.5" />
       <module name="shihe-springboot-mongo" target="1.8" />
+      <module name="shihe-springboot-mvc" target="1.8" />
       <module name="shihe-springboot-redis" target="1.8" />
+      <module name="shihe-springboot-register" target="1.8" />
       <module name="shihe-springboot-security" target="1.8" />
       <module name="shihe-springboot-security-authorization" target="1.8" />
       <module name="shihe-springboot-security-formlogin" target="1.8" />
